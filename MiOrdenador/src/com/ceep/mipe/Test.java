@@ -8,11 +8,16 @@ package com.ceep.mipe;
 import com.ceep.domain.Computadora;
 import com.ceep.domain.Monitor;
 import com.ceep.domain.Orden;
+import com.ceep.domain.teclado;
 
 
 public class Test {
     
       public static void main(String[] args) {
+          
+          teclado teclado1 = new teclado("USB","LGKGGK");
+          
+          
           Monitor a1 = new Monitor("acer3e",40);
           Monitor a2 = new Monitor("asust5",30);
           Monitor a3 = new Monitor("hpy6",20);

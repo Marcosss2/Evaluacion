@@ -8,7 +8,7 @@ private String nombre;
 private Monitor monitor;
 private teclado teclado;
 private Raton raton;
- static  int contadorComputadora;
+private static  int contadorComputadora;
     public Computadora() {
        this.idComputadora = ++Computadora.contadorComputadora;
     }

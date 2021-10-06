@@ -11,9 +11,11 @@ public class Monitor {
    private int ContadorMonitor;
 
     public Monitor() {
+    this.idMonitor = ++ ContadorMonitor;
     }
 
     public Monitor(String marca, double tamanio) {
+        this();
         this.marca = marca;
         this.tamanio = tamanio;
     }
