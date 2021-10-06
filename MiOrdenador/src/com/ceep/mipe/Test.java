@@ -9,10 +9,7 @@ import com.ceep.domain.Computadora;
 import com.ceep.domain.Monitor;
 import com.ceep.domain.Orden;
 
-/**
- *
- * @author Marco
- */
+
 public class Test {
     
       public static void main(String[] args) {
